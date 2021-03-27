@@ -438,6 +438,7 @@ bool EventQueue::SDK_OnMetamodLoad(ISmmAPI *ismm, char *error, size_t maxlen, bo
 void EventQueue::SDK_OnAllLoaded()
 {
 	sharesys->AddNatives(myself, MyNatives);
+	sharesys->RegisterLibrary(myself, "Entity Events Queue");
 }
 
 void EventQueue::SDK_OnUnload()
