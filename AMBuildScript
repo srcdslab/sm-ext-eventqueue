@@ -173,16 +173,19 @@ class ExtensionConfig(object):
       '-Wno-unused',
       '-Wno-switch',
       '-Wno-array-bounds',
+      '-Wno-implicit-function-declaration',
       '-msse',
       '-m32',
       '-fvisibility=hidden',
     ]
     cxx.cxxflags += [
-      '-std=c++11',
+      '-std=c++14',
       '-fno-exceptions',
       '-fno-threadsafe-statics',
       '-Wno-non-virtual-dtor',
       '-Wno-overloaded-virtual',
+      '-Wno-implicit-int-float-conversion',
+      '-Wno-expansion-to-defined',
       '-fvisibility-inlines-hidden',
     ]
     cxx.linkflags += ['-m32']
