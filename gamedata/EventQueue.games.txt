@@ -1,0 +1,32 @@
+"Games"
+{
+	"cstrike"
+	{
+		"Signatures"
+		{
+			"g_EventQueue"
+			{
+				"library"	"server"
+				"linux"		"@g_EventQueue"
+			}
+			
+			"EventQueuePrioritizedEvent_t::s_Allocator"
+			{
+				"library"	"server"
+				"linux"		"@_ZN28EventQueuePrioritizedEvent_t11s_AllocatorE"
+			}
+			
+			"CUtlMemoryPool::Free"
+			{
+				"library"	"server"
+				"linux"		"@_ZN14CUtlMemoryPool4FreeEPv"
+			}
+			
+			"CUtlMemoryPool::Alloc"
+			{
+				"library"	"server"
+				"linux"		"@_ZN14CUtlMemoryPool5AllocEj"
+			}
+		}
+	}
+}
