@@ -77,7 +77,7 @@ public Extension __ext_eventqueue =
 };
 
 #if !defined REQUIRE_EXTENSIONS
-public __ext_eventqueue_SetNTVOptional()
+public void __ext_eventqueue_SetNTVOptional()
 {
 	MarkNativeAsOptional("EQ_AddEvent");
 	MarkNativeAsOptional("EQ_AddEventByName");
