@@ -1,1 +1,7 @@
-build/*
+build
+Containerfile
+.venv
+safetyhook
+ambuild
+*.env
+*.ps1
