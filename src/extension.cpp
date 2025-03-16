@@ -28,9 +28,10 @@
  *
  * Version: $Id$
  */
-#include "extension.h"
-#include "variant_t.h"
 
+#include "extension.h"
+#include "isaverestore.h"
+#include "variant_t.h"
 #include "eventqueue.h"
 #include "CDetour/detours.h"
 #include <list>

@@ -37,10 +37,12 @@
  * @brief Contains macros for configuring basic extension information.
  */
 
-/* Basic information exposed publicly */
+#include "version.h"
+
+ /* Basic information exposed publicly */
 #define SMEXT_CONF_NAME			"Entity Events Queue"
 #define SMEXT_CONF_DESCRIPTION	"Provides interface to entity events queue"
-#define SMEXT_CONF_VERSION		"0.1"
+#define SMEXT_CONF_VERSION		SM_FULL_VERSION
 #define SMEXT_CONF_AUTHOR		"Cloud Strife"
 #define SMEXT_CONF_URL			"https://steamcommunity.com/id/cloudstrifeua/"
 #define SMEXT_CONF_LOGTAG		"EEQ"
